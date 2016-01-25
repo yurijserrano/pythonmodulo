@@ -11,7 +11,7 @@ Ele é utilizado para o sorteio de números e strings
 Utilizando o choice do módulo random escolhemos um elemento
 aleatório.
 
-Obs: Com input
+Obs: Com raw_input
 
 """
 
@@ -24,9 +24,9 @@ Obs: Com input
 
 from random import choice
 
-elemento1 = input("Digite o primeiro elemento:")
-elemento2 = input("Digite o segundo elemento:")
-elemento3 = input("Digite o terceiro elemento:")
+elemento1 = raw_input("Digite o primeiro elemento:")
+elemento2 = raw_input("Digite o segundo elemento:")
+elemento3 = raw_input("Digite o terceiro elemento:")
 
 
 
